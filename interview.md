@@ -84,4 +84,19 @@ Unreachable & Finalized --> Reclaimed
 
 无语。
 
-算法题：一个字符串，如"This is a test !" ,输出"test a is This",要考虑空间。
+4. 算法题：一个字符串，如"This is a test !" ,输出"test a is This",要考虑空间。
+
+```
+    public static void main(String[] args) {
+        String s = "This is a test!";
+        String splited[] = s.split("\\s+");
+        int len = splited.length;
+        String temp = null;
+        for(int i = 0; i < len / 2; i++) {
+            temp = splited[i];
+            splited[i] = splited[len - i - 1];
+            splited[len - i - 1] = temp;
+        }
+        System.out.println(Arrays.toString(splited));
+    }
+```
