@@ -189,56 +189,49 @@ G电面先warm up 一题是一个array 变BST， 第二题是 skip list，这题
 理同事间矛盾，对我们公司会有什么贡献，等等，都是套路。
 
 电话面试
-1)      heap/stack的概念，区别？
-2)      virtual function? pure virtual function? virtual desctruction? 概念？何时用？
-3)      Base class 和derived class之间的赋值(比如A是base, B是derived, A p1 = new B, 行不行？反过来呢？) 
-4)      class的概念，为什么要用OOP? protect/public/private，什么时候用它们？
-5)      设计一个parking lot的class
-6)      线程之间怎么通讯？什么是critical section/semaphore/mutax，区别？
-7)      process和thread的区别？
-8)      怎样检测link-list中的circle?
-9)      写一个reverse string的代码，怎么测试？(网上用livemeeting的面试)
-10)     写代码，计算一段plain text中有多少单词，以及计算出现频率最高的单词(网上用livemeeting的面试)。怎么测试？
-11)     A. Write a program in C which takes a string and tests whether any permutation of its letters could be a palindrome. Optimize for speed. Make 
-sure your code handles all error conditions. Example : if input string is "LIILR" then your program should output TRUE. Since one of its permutations is 
-LIRIL which is a palindrome. B. How would you change the above program if you also had to print out the palindrome. Example : if input string is "LIILR" 
-then your program should output TRUE, LIRIL., 限时45min, email寄回。
-12)      Deadline邻近，程序出现重大问题，要么是没时间修改，要么是程序员拒绝修改，怎么办？
-13)     Deadline邻近，没有时间做足够测试，怎么办？如果连排在priority list中的项目都没时间测试，怎么办？
-14)     boost pool memory概念
-15)     java monitor概念
+1)      heap/stack的概念，区别？         
+2)      virtual function? pure virtual function? virtual desctruction? 概念？何时用？                   
+3)      Base class 和derived class之间的赋值(比如A是base, B是derived, A p1 = new B, 行不行？反过来呢？)                     
+4)      class的概念，为什么要用OOP? protect/public/private，什么时候用它们？                  
+5)      设计一个parking lot的class                         
+6)      线程之间怎么通讯？什么是critical section/semaphore/mutax，区别？                 
+7)      process和thread的区别？                  
+8)      怎样检测link-list中的circle?                              
+9)      写一个reverse string的代码，怎么测试？(网上用livemeeting的面试)                           
+10)     写代码，计算一段plain text中有多少单词，以及计算出现频率最高的单词(网上用livemeeting的面试)。怎么测试？                 
+11)     A. Write a program in C which takes a string and tests whether any permutation of its letters could be a palindrome. Optimize for speed. Make sure your code handles all error conditions. Example : if input string is "LIILR" then your program should output TRUE. Since one of its permutations is LIRIL which is a palindrome. B. How would you change the above program if you also had to print out the palindrome. Example : if input string is "LIILR" then your program should output TRUE, LIRIL., 限时45min, email寄回。            
+12)      Deadline邻近，程序出现重大问题，要么是没时间修改，要么是程序员拒绝修改，怎么办？                  
+13)     Deadline邻近，没有时间做足够测试，怎么办？如果连排在priority list中的项目都没时间测试，怎么办？                     
+14)     boost pool memory概念                      
+15)     java monitor概念                                 
 
 Onsite (基本所有代码都要说出复杂度):
-1)      给一段代码，找错误
-2)      什么是deadlock, 怎么避免？
-3)      代码：Reverse一个link-list， 怎么测试？
-4)      代码：link-list按照value合并/排序，怎么测试？
-5)      代码：设计一个vector(矢量)的class
-6)      代码：reverse一段明文中的各个单词, 怎么测试？
-7)      代码：程序接受command line input, 比如说程序是mycalc.exe, 用户运行`”mycalc 3+2*3*3-1”`，输出答案。假设: 1. 没有除法； 2. 用户输入正确(不会出现“
-mycalc 4+-5”类似情况)；3. 只考虑integer。 代码写完当场输入计算机测试
-8)      4x4的正方形，有一些空格已经填入数字(1~4)，条件：每行每列以及每个2x2的小矩形(只考虑边缘4个小矩形)，1~4四个数字只能出现1次。设计算法。
-9)      有个party, 请了个人过来演讲，这个人不认识听众的任何一人，任何听众都认识他。现在演讲者已经混入人群，你可以问任何一人”你认识哪些人？”(当然不能问“
-谁是演讲者”)，优化算法，最快找到这个演讲者
-10)     写代码的时候，往往会给array定一个`max_number`, 如果现实中有可能出现高于这个数字，怎么测试？比如找出邻近的wifi网络数，max_number再怎么大，总有可能超出
-，怎么测试呢？而且比如这种情况还很难模拟(很难在现场设几百个网络吧)，怎么测试？不准用动态数组。
+1)      给一段代码，找错误             
+2)      什么是deadlock, 怎么避免？                       
+3)      代码：Reverse一个link-list， 怎么测试？                         
+4)      代码：link-list按照value合并/排序，怎么测试？                       
+5)      代码：设计一个vector(矢量)的class                          
+6)      代码：reverse一段明文中的各个单词, 怎么测试？                      
+7)      代码：程序接受command line input, 比如说程序是mycalc.exe, 用户运行`”mycalc 3+2*3*3-1”`，输出答案。假设: 1. 没有除法； 2. 用户输入正确(不会出现`“mycalc 4+-5”`类似情况)；3. 只考虑integer。 代码写完当场输入计算机测试        
+8)      4x4的正方形，有一些空格已经填入数字(1~4)，条件：每行每列以及每个2x2的小矩形(只考虑边缘4个小矩形)，1~4四个数字只能出现1次。设计算法。 
+9)      有个party, 请了个人过来演讲，这个人不认识听众的任何一人，任何听众都认识他。现在演讲者已经混入人群，你可以问任何一人”你认识哪些人？”(当然不能问“谁是演讲者”)，优化算法，最快找到这个演讲者               
+10)     写代码的时候，往往会给array定一个`max_number`, 如果现实中有可能出现高于这个数字，怎么测试？比如找出邻近的wifi网络数，max_number再怎么大，总有可能超出，怎么测试呢？而且比如这种情况还很难模拟(很难在现场设几百个网络吧)，怎么测试？不准用动态数组。
 
 ------------------------------------
 
 大部分是在这里看到的。不少是常见题。
 <http://www.mitbbs.com/article_t/JobHunting/32591409.html>
 
-1. An online stream, with infinite numbers, tell me the most frequent number
-.
+1. An online stream, with infinite numbers, tell me the most frequent number.
 2. streaming logging, 设计方案能随时求最近分钟和小时和天的top clicks.
 3. how to add a counter to www.google.
 4. LOCAL MINIMUM. EXTEND到N*N的ARRAY的LOCAL MINIMUM的算法.
 5. scramble string. How to do it in polynomial time?
 6. 给一个list of sentences, 然后找出一个pair,common words 最大。举例：
 
-This is a good day
-This is a bad day
-That was good day
+This is a good day          
+This is a bad day             
+That was good day                      
 
 return 第一个和第二个句子，因为有四个common words.
 
