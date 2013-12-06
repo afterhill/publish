@@ -222,3 +222,32 @@ mycalc 4+-5”类似情况)；3. 只考虑integer。 代码写完当场输入计
 谁是演讲者”)，优化算法，最快找到这个演讲者
 10)     写代码的时候，往往会给array定一个`max_number`, 如果现实中有可能出现高于这个数字，怎么测试？比如找出邻近的wifi网络数，max_number再怎么大，总有可能超出
 ，怎么测试呢？而且比如这种情况还很难模拟(很难在现场设几百个网络吧)，怎么测试？不准用动态数组。
+
+------------------------------------
+
+大部分是在这里看到的。不少是常见题。
+<http://www.mitbbs.com/article_t/JobHunting/32591409.html>
+
+1. An online stream, with infinite numbers, tell me the most frequent number
+.
+2. streaming logging, 设计方案能随时求最近分钟和小时和天的top clicks.
+3. how to add a counter to www.google.
+4. LOCAL MINIMUM. EXTEND到N*N的ARRAY的LOCAL MINIMUM的算法.
+5. scramble string. How to do it in polynomial time?
+6. 给一个list of sentences, 然后找出一个pair,common words 最大。举例：
+
+This is a good day
+This is a bad day
+That was good day
+
+return 第一个和第二个句子，因为有四个common words.
+
+7.given a text file with 3 columns -- all integers:
+
+id,parent,weight
+
+each line is a node, 'parent' refers to 'id' of another node.
+
+Print out, for each node, the total weight of a subtree below this node.
+
+Someone says 不用建树，直接边扫描边打印就好, how?
