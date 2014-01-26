@@ -6,3 +6,6 @@
 
 
 280X: <http://item.jd.com/1026970.html>
+
+Middle Coin:
+http://middlestats.circlestorm.org/?target=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ&days=7
