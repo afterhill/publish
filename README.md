@@ -9,3 +9,4 @@
 
 Middle Coin:
 http://middlestats.circlestorm.org/?target=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ&days=7
+http://stratehm.net/#address=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ,isGlobalStatsCollapsed=false,isDisplaySummary=false,isDisplayBTC=false,isDisplayPower=false
