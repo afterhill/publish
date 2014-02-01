@@ -18,3 +18,8 @@ VertCoin:
 Address:
 
 VtYMR5W54cchUXuFP47wBxituiiZQ5dV3E
+
+
+WafflePOOL:
+
+http://wafflepool.com/miner/1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ
