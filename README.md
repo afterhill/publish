@@ -10,8 +10,9 @@
 Middle Coin:
 http://middlestats.circlestorm.org/?target=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ&days=7
 
-http://vps.webbson.net/middlecoin/?currency=sek&wallet=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ
+http://vps.webbson.net/middlecoin/?currency=cny&wallet=1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ
 
+http://www.middlecoin.com/reports/1EXZawDJ5s7jcUGdC8CDcPpGhAtRuL9zjZ.html
 
 VertCoin:
 
