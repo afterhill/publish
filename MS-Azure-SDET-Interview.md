@@ -8,21 +8,21 @@ http://www.mitbbs.com/article_t/JobHunting/32624175.html
 校面: 论文, reverse words in sentence
 
 + 亚裔：Unknown Interviewer profile: 
-  a) Median of two sorted arrays,  
-  b) 1000 number files each contain 1,000,000,000,000 numbers, find the median
+  + Median of two sorted arrays,  
+  + 1000 number files each contain 1,000,000,000,000 numbers, find the median
 + 小印：SDET 3 years: 
-  a) Quora’s design. 
-  b) For a quora question,  given getRndAns(), implement function to return “More Answers…” (i.e. next n popular answers). Extend solution to always include friends’ answer
+  + Quora’s design. 
+  + For a quora question,  given getRndAns(), implement function to return “More Answers…” (i.e. next n popular answers). Extend solution to always include friends’ answer
 + 白人：SDET 11 years: a) Design tests for MS IASS system，error/performance/anomaly usage etc. 午饭。
 + 白人：SDET ? years: 
-  a) Implement a function to remove redundant html tags. 
-  b) extend the function to handle xhtml, invalid tags, attacks etc
+  + Implement a function to remove redundant html tags. 
+  + extend the function to handle xhtml, invalid tags, attacks etc
 + 老印：SDET 14 years/Manager?: 
-  a) Implement Queue with O(1) enqueue, dequeue, del(data), insert(data) 
-  b) 喝咖啡，讨论论文和毕业
+  + Implement Queue with O(1) enqueue, dequeue, del(data), insert(data) 
+  + 喝咖啡，讨论论文和毕业
 + 老老印：Manager of 3 and 4: 
-  a) Given a linked list 1->2->3->a->b->c->4->5->6->d->e->f….. 生成 1->a->2->b->…. 
-  b) 聊天 
+  + Given a linked list 1->2->3->a->b->c->4->5->6->d->e->f….. 生成 1->a->2->b->…. 
+  + 聊天 
 + 5,6都聊了聊behavior quetion，论文内容，毕业的时间，还有为什么要申MS。
 
 不知道为什么要面6个。以为5个就是上限了。btw，小中老印真多。估计是Azure和Test双光环加成的效果。
