@@ -1,6 +1,6 @@
-发信人: rensheng (rensheng), 信区: JobHunting
-标  题: G家onsite面经
-发信站: BBS 未名空间站 (Fri Feb 14 20:03:08 2014, 美东)
+发信人: rensheng (rensheng), 信区: JobHunting       
+标  题: G家onsite面经         
+发信站: BBS 未名空间站 (Fri Feb 14 20:03:08 2014, 美东)               
 
 出来混了6年，想换换环境。可能是因为local，google没有给我电面直接onsite了。自己感觉onsite表现还不错，但是还是被拒。我就简单把题目分享给大家吧。面的Java position。所以写的都是java code。
 
@@ -9,6 +9,7 @@
 a. 设计自己的一个Iterator class。 constructor输入的是List<Iterator>. 实现一个method: Object getNext(); 每次得出的结果如下。
 
 加入输入是
+
 +Iterator1: a, b, c, d, e
 +Iterator2: f, g, h, i, j
 
