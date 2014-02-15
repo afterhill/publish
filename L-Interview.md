@@ -77,7 +77,7 @@ follow up:问如何scala-out
 表现最好的一轮，有相似的项目经验，聊的比较投机
 
 + a. max points on a line
-+ b. 给int[] a,求int[] result。 其中result[i]=a1*a2…*ai-1*ai+1*…an，
++ b. 给int[] a,求int[] result。 其中`result[i]=a1*a2…*ai-1*ai+1*…an`，
 
 follow up:不能用除法
 
