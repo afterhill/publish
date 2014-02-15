@@ -26,9 +26,9 @@
 小印，口音重，发了篇SIGMOD，不过第一作者是国人:)
 
 + a. 假设有函数int[] getConnection(memberID)，结果是有序的，要求实现：
-isFirstDegree(member1,member2)
-isSecondDegree(member1,member2)
-isThirdDegree(member1,member2)
+  + isFirstDegree(member1,member2)
+  + isSecondDegree(member1,member2)
+  + isThirdDegree(member1,member2)
 
 就是判断一度，二度，三度好友关系，是系统设计题，伪代码即可。
 
