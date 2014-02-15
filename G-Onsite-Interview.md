@@ -10,8 +10,8 @@ a. 设计自己的一个Iterator class。 constructor输入的是List<Iterator>.
 
 加入输入是
 
-  Iterator1: a, b, c, d, e
-  Iterator2: f, g, h, i, j
++ Iterator1: a, b, c, d, e
++ Iterator2: f, g, h, i, j
 
 getNext() 出来的顺序是 a, f, b, g, c, h, d, i, e, j
 
