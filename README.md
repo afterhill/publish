@@ -4,6 +4,7 @@
 - BTC: 145WcYGMsCzCPHBs3DwZBxjDYaLPDhGbYG
 - LTC: LXMn83JsykjCy1dSb86wfxqDsMCz5fBzQH
 
+<http://max.1gh.com/user?wallet=maDrBG14mzQ1k8ddP1PsWaSDjiC2daCY2z> MaxCoin
 
 280X: <http://item.jd.com/1026970.html>
 
